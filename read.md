@@ -39,8 +39,7 @@ return (
 <li
 style={{ backgroundColor: isSelected ? "green" : "red" }}
 onClick={onClickHandler(index)}
-key={index}
->
+key={index}>
 {text}
 
 );
